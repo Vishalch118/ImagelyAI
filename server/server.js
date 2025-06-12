@@ -9,7 +9,16 @@ const PORT=process.env.PORT||4000
 const app=express()
 
 app.use(express.json()) //all requests will be passed using json method
-app.use(cors())
+app.use(cors({
+  origin: [
+    "http://localhost:4000",  // for my local development
+    "http://localhost:5173",  // while using Vite
+    "https://imagelyai-frontend.onrender.com"  // my deployed frontend
+  ],
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}))
 await connectDB() //connects express to mongoDB
 
 app.use('/api/user',userRouter) //all user related routes will be prefixed with /api/user
