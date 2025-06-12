@@ -12,6 +12,7 @@ An generation platform that transforms text prompts into stunning visual artwork
 - **Modern UI/UX**: Clean, intuitive interface built with React
 
 ## 🚀 Live Demo
+![download](https://github.com/user-attachments/assets/fc1005ca-8cd3-48de-bf8c-11fd4d0dd332)
 
 **Frontend**: [https://imagelyai-frontend.onrender.com](https://imagelyai-frontend.onrender.com)
 
