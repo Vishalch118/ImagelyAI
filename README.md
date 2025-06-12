@@ -1,6 +1,6 @@
 # ImagelyAI 🎨
 
-An AI-powered image generation platform that transforms text prompts into stunning visual artwork .
+An generation platform that transforms text prompts into stunning visual artwork .
 
 ## 🌟 Features
 
