@@ -1,0 +1,9 @@
+{
+    "C_Cpp.copilotHover": "disabled",
+    "github.copilot.enable": {
+        "*": false,
+        "javascript": true, // Enable only for JS if needed
+        "python": false
+    },
+    "git.ignoreLimitWarning": true
+}
